@@ -1,0 +1,12 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Description: "1 INSTANCE DEPLOYED FROM CLOUD FORMATION"
+Resources:
+    myEC2instance:
+        Type: AWS::EC2::Instance
+        Properties:
+            ImageId: ami-0290e60ec230db1e4
+            KeyName: CFT-Key
+            SecurityGroups: 
+              - CFT-SG
+            InstanceType: t3.micro
+        
