@@ -4,9 +4,9 @@ Resources:
     myEC2instance:
         Type: AWS::EC2::Instance
         Properties:
-            ImageId: ami-0290e60ec230db1e4
+            ImageId: ami-0e2694e3cb74a4c35
             KeyName: CFT-Key
             SecurityGroups: 
               - CFT-SG
-            InstanceType: t3.micro
+            InstanceType: t2.nano
         
