@@ -6,7 +6,7 @@ Resources:
         Properties:
             ImageId: ami-0e2694e3cb74a4c35
             KeyName: CFT-Key
-            SecurityGroups: 
-              - CFT-SG
+            SecurityGroupIds: 
+              - sg-0c308ad2827fdd334
             InstanceType: t2.nano
         
