@@ -5,7 +5,7 @@ Resources:
         Type: AWS::EC2::Instance
         Properties:
             ImageId: ami-0e2694e3cb74a4c35
-            KeyName: string
+            KeyName: NODE-APP-KEY
             SecurityGroupIds: 
               - sg-0c308ad2827fdd334
             InstanceType: t2.nano
